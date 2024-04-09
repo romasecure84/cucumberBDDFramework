@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79526288-142d-4608-934d-e4f71b96d39b" name="Changes" comment="" />
+    <list default="true" id="79526288-142d-4608-934d-e4f71b96d39b" name="Changes" comment="cucumberBDDFramework Projesi yaradildi">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +29,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Roma/IdeaProjects/cucumberBDDFramework/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Roma/IdeaProjects/cucumberBDDFramework/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,7 +44,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712678274818</updated>
     </task>
+    <task id="LOCAL-00001" summary="cucumberBDDFramework Projesi yaradildi">
+      <option name="closed" value="true" />
+      <created>1712678519268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712678519268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cucumberBDDFramework Projesi yaradildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumberBDDFramework Projesi yaradildi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
