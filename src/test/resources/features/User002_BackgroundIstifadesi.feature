@@ -3,6 +3,7 @@ Feature: Background Istifadesi
   Background: Ortaq addimlar
     Given istifadeci amazon sehifesine gedir
 
+@Ssenari1
   Scenario: AZ01 istifadeci searchbox'u test edir
     When istifadeci iphone axtarisi edir
     Then istifadeci necilerin iphone icerdiyini test edir
