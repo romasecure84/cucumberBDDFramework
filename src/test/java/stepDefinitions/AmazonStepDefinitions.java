@@ -49,4 +49,14 @@ public class AmazonStepDefinitions {
     public void istifadeciNecilerinJavaIcerdiyiniTestEdir() {
         Assert.assertTrue(amazonPage.searchWE.getText().contains("Java"));
     }
+
+    @When("istifadeci {string} axtarisi edir")
+    public void istifadeciAxtarisiEdir(String axtarilanObyekt) {
+        amazonPage.searchBox.sendKeys(axtarilanObyekt,Keys.ENTER);
+    }
+
+    @Then("istifadeci necilerin {string} icerdiyini test edir")
+    public void istifadeciNecilerinIcerdiyiniTestEdir(String obyekt) {
+        Assert.assertTrue(amazonPage.searchWE.getText().contains(obyekt));
+    }
 }
