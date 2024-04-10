@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79526288-142d-4608-934d-e4f71b96d39b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/User003_ParametrIstifadesi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/User004_ParametrVeConfigReadre.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AmazonStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/User003_ParametrIstifadesi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/User003_ParametrIstifadesi.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,16 +80,15 @@
       <recent name="C:\Users\Roma\IdeaProjects\cucumberBDDFramework\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: AZ02 istifadeci searchbox'u test edir">
-    <configuration name="Scenario: AZ01 istifadeci searchbox'u test edir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: User004_ParametrVeConfigReadre">
+    <configuration name="Feature: User004_ParametrVeConfigReadre" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User003_ParametrIstifadesi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User004_ParametrVeConfigReadre.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ01 istifadeci searchbox\'u test edir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 istifadeci searchbox\'u test edir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci searchbox'u test edir" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: User004_ParametrVeConfigReadre" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +100,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: AZ02 istifadeci searchbox'u test edir (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: AZ01 Parametr istifadesinde ConfigReader Istifadesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User002_BackgroundIstifadesi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User004_ParametrVeConfigReadre.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ02 istifadeci searchbox\'u test edir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ02 istifadeci searchbox\'u test edir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ02 istifadeci searchbox'u test edir" />
+      <option name="NAME_FILTER" value="^AZ01 Parametr istifadesinde ConfigReader Istifadesi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 Parametr istifadesinde ConfigReader Istifadesi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AZ01 Parametr istifadesinde ConfigReader Istifadesi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: AZ01 istifadeci searchbox'u test edir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User003_ParametrIstifadesi.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumberBDDFramework" />
+      <option name="NAME_FILTER" value="^AZ01 istifadeci searchbox\'u test edir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 istifadeci searchbox\'u test edir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci searchbox'u test edir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,26 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: AZ03 istifadeci searchbox'u test edir (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User002_BackgroundIstifadesi.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ03 istifadeci searchbox\'u test edir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ03 istifadeci searchbox\'u test edir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ03 istifadeci searchbox'u test edir" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumberBDDFramework" />
       <extension name="coverage">
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: AZ02 istifadeci searchbox'u test edir" />
+        <item itemvalue="Cucumber Java.Feature: User004_ParametrVeConfigReadre" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: AZ01 Parametr istifadesinde ConfigReader Istifadesi" />
+        <item itemvalue="Cucumber Java.Scenario: AZ02 istifadeci searchbox'u test edir" />
         <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci searchbox'u test edir" />
-        <item itemvalue="Cucumber Java.Scenario: AZ03 istifadeci searchbox'u test edir (1)" />
-        <item itemvalue="Cucumber Java.Scenario: AZ02 istifadeci searchbox'u test edir (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712776485388</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="parametr istifadesi dersi elave edildi">
+      <option name="closed" value="true" />
+      <created>1712777281170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712777281170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,7 +260,8 @@
     <MESSAGE value="cucumber testine yeni ssenariler elave edildi edildi" />
     <MESSAGE value="cucumber testine background dersi elave edildi" />
     <MESSAGE value="runner class elave edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="runner class elave edildi" />
+    <MESSAGE value="parametr istifadesi dersi elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="parametr istifadesi dersi elave edildi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

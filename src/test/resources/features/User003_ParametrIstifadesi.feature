@@ -1,4 +1,4 @@
-Feature: Background Istifadesi
+Feature: Parametr Istifadesi
 
   Background: Ortaq addimlar
     Given istifadeci amazon sehifesine gedir
