@@ -29,4 +29,24 @@ public class AmazonStepDefinitions {
         Driver.quitDriver();
 
     }
+
+    @When("istifadeci Selenium axtarisi edir")
+    public void istifadeciSeleniumAxtarisiEdir() {
+        amazonPage.searchBox.sendKeys("Selenium", Keys.ENTER);
+    }
+
+    @Then("istifadeci necilerin Selenium icerdiyini test edir")
+    public void istifadeciNecilerinSeleniumIcerdiyiniTestEdir() {
+        Assert.assertTrue(amazonPage.searchWE.getText().contains("Selenium"));
+    }
+
+    @When("istifadeci Java axtarisi edir")
+    public void istifadeciJavaAxtarisiEdir() {
+        amazonPage.searchBox.sendKeys("Java", Keys.ENTER);
+    }
+
+    @Then("istifadeci necilerin Java icerdiyini test edir")
+    public void istifadeciNecilerinJavaIcerdiyiniTestEdir() {
+        Assert.assertTrue(amazonPage.searchWE.getText().contains("Java"));
+    }
 }
