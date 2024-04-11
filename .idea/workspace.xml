@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79526288-142d-4608-934d-e4f71b96d39b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DataPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataTablesStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DataPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataTablesStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataTablesStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,16 +79,15 @@
       <recent name="C:\Users\Roma\IdeaProjects\cucumberBDDFramework\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir">
-    <configuration name="Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi -  - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: User008_ScenarioOutlineClassWork">
+    <configuration name="Feature: User008_ScenarioOutlineClassWork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User007_ScenarioOutlinePractice.feature:8" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ01 ConfigReader ile Scenario Outline istifadesi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 ConfigReader ile Scenario Outline istifadesi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi -  - Example n°1" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: User008_ScenarioOutlineClassWork" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -121,15 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir -  - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature:22" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
       <option name="NAME_FILTER" value="^AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" />
+      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir -  - Example n°1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,15 +139,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: AZ01 istifadeci istediyi kelimeleri axtaris edir -  - Example n°3" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User006_ScenarioOutline.feature:12" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ01 istifadeci istediyi kelimeleri axtaris edir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 istifadeci istediyi kelimeleri axtaris edir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci istediyi kelimeleri axtaris edir -  - Example n°3" />
+      <option name="NAME_FILTER" value="^AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" />
+        <item itemvalue="Cucumber Java.Feature: User008_ScenarioOutlineClassWork" />
         <item itemvalue="Cucumber Java.Scenario: istifadeci sehifeni baglayir" />
+        <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" />
+        <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir -  - Example n°1" />
         <item itemvalue="Cucumber Java.Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi" />
-        <item itemvalue="Cucumber Java.Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi -  - Example n°1" />
-        <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci istediyi kelimeleri axtaris edir -  - Example n°3" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712859779693</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Scenario outline Practice2 dersi elave edildi">
+      <option name="closed" value="true" />
+      <created>1712865062742</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712865062742</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,7 +309,8 @@
     <MESSAGE value="hook class elave edildi ve cucumber publish report dersi elave edildi" />
     <MESSAGE value="Scenario outline dersi elave edildi" />
     <MESSAGE value="Scenario outline Practice dersi elave edildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario outline Practice dersi elave edildi" />
+    <MESSAGE value="Scenario outline Practice2 dersi elave edildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scenario outline Practice2 dersi elave edildi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

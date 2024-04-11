@@ -3,6 +3,8 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.DataPage;
 import utilities.ConfigReader;
@@ -20,7 +22,7 @@ public class DataTablesStepDefinitions {
 
     @Then("istifadeci new button'una basir")
     public void istifadeciNewButtonUnaBasir() {
-        dataPage.adNew.click();
+        dataPage.newButton.click();
     }
 
     @And("ad bolumune {string} yazir")
@@ -30,43 +32,52 @@ public class DataTablesStepDefinitions {
 
     @And("soyad bolumune {string} yazir")
     public void soyadBolumuneYazir(String lastname) {
-        dataPage.soyadElaveEt.sendKeys(lastname);
+        actions.sendKeys(Keys.TAB).sendKeys(lastname).perform();
+        //dataPage.soyadElaveEt.sendKeys(lastname);
     }
 
     @And("position bolumune {string} yazir")
     public void positionBolumuneYazir(String position) {
-        dataPage.positionElaveEt.sendKeys(position);
+        actions.sendKeys(Keys.TAB).sendKeys(position).perform();
+        //dataPage.positionElaveEt.sendKeys(position);
     }
 
     @And("office bolumune {string} yazir")
     public void officeBolumuneYazir(String office) {
-        dataPage.officeElaveEt.sendKeys(office);
+        actions.sendKeys(Keys.TAB).sendKeys(office).perform();
+        //dataPage.officeElaveEt.sendKeys(office);
     }
 
     @And("extension bolumune {string} yazir")
     public void extensionBolumuneYazir(String extension) {
-        dataPage.extensionElaveEt.sendKeys(extension);
+        actions.sendKeys(Keys.TAB).sendKeys(extension).perform();
+        //dataPage.extensionElaveEt.sendKeys(extension);
     }
 
     @And("startDate bolumune {string} yazir")
     public void startdateBolumuneYazir(String startDate) {
-        dataPage.startDateElaveEt.sendKeys(startDate);
+        actions.sendKeys(Keys.TAB).sendKeys(startDate).perform();
+        //dataPage.startDateElaveEt.sendKeys(startDate);
     }
 
     @And("salary bolumune {string} yazir")
-    public void salaryBolumuneYazir(String arg0, String arg1) {
+    public void salaryBolumuneYazir(String salary) {
+        actions.sendKeys(Keys.TAB).sendKeys(salary).perform();
     }
 
     @And("istifadeci create button'una basir")
     public void istifadeciCreateButtonUnaBasir() {
+        actions.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
         dataPage.createButton.click();
     }
 
     @And("istifadeci {string} ile axtaris edir")
-    public void istifadeciIleAxtarisEdir(String arg0, String arg1) {
+    public void istifadeciIleAxtarisEdir(String firstname) {
+        dataPage.searchText.sendKeys(firstname,Keys.ENTER);
     }
 
     @And("ad bolumunde {string} oldugunu test edir")
-    public void adBolumundeOldugunuTestEdir(String arg0, String arg1) {
+    public void adBolumundeOldugunuTestEdir(String ad) {
+        Assert.assertTrue(dataPage.searchResult.getText().contains(ad));
     }
 }

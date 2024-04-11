@@ -11,7 +11,7 @@ public class DataPage {
     }
 
     @FindBy(xpath = "//*[@class='dt-button buttons-create']")
-    public WebElement adNew;
+    public WebElement newButton;
 
     @FindBy(xpath = "//*[@id='DTE_Field_first_name']")
     public WebElement adElaveEt;
@@ -36,4 +36,10 @@ public class DataPage {
 
     @FindBy(xpath = "/html/body/div[9]/div/div/div/div[1]/div[4]/div[3]/button")
     public WebElement createButton;
+
+    @FindBy(xpath = "//*[@type='search']")
+    public WebElement searchText;
+
+    @FindBy(xpath = "(//*[@class='sorting_1'])[1]")
+    public WebElement searchResult;
 }
