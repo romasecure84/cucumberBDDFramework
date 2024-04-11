@@ -65,8 +65,5 @@ public class AmazonStepDefinitions {
         amazonPage.searchBox.sendKeys(axtarilanKelime,Keys.ENTER);
     }
 
-    @Then("neticelerin {string} icerdiyini test edir")
-    public void neticelerinIcerdiyiniTestEdir(String dogrulananKelime) {
-        Assert.assertTrue(amazonPage.searchWE.getText().contains(dogrulananKelime));
-    }
+
 }

@@ -12,7 +12,7 @@ public class BrcStepDefinitions {
     Faker faker=new Faker();
     @Given("istifadeci {string} sehifesine girir")
     public void istifadeci_sehifesine_girir(String istenilenURL) {
-        Driver.getDriver().get(ConfigReader.getProperty("brcURL"));
+        Driver.getDriver().get(ConfigReader.getProperty(istenilenURL));
     }
     @Then("istifadeci etibarsiz login girir")
     public void istifadeci_etibarsiz_login_girir() {
@@ -39,5 +39,11 @@ public class BrcStepDefinitions {
     @When("istifadeci login yazisina basir")
     public void istifadeciLoginYazisinaBasir() {
         brcPage.loginButton.click();
+    }
+
+
+    @When("istifadeci {string} dogrulugunu test edir")
+    public void istifadeciDogrulugunuTestEdir(String axtarilanURL) {
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(axtarilanURL));
     }
 }
