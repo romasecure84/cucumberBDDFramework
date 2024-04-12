@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79526288-142d-4608-934d-e4f71b96d39b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HerokuappPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FacebookStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HerokuAppStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/User009_Practice.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataTablesStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DataTablesStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
       <recent name="C:\Users\Roma\IdeaProjects\cucumberBDDFramework\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: User008_ScenarioOutlineClassWork">
+  <component name="RunManager" selected="Cucumber Java.Scenario: AZ01 herokuapp adresinden delete button'u islemeli">
     <configuration name="Feature: User008_ScenarioOutlineClassWork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User008_ScenarioOutlineClassWork.feature" />
@@ -99,15 +101,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: AZ01 herokuapp adresinden delete button'u islemeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User007_ScenarioOutlinePractice.feature" />
-      <option name="GLUE" value="stepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/User009_Practice.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumberBDDFramework" />
-      <option name="NAME_FILTER" value="^AZ01 ConfigReader ile Scenario Outline istifadesi$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 ConfigReader ile Scenario Outline istifadesi$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi" />
+      <option name="NAME_FILTER" value="^AZ01 herokuapp adresinden delete button\'u islemeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AZ01 herokuapp adresinden delete button\'u islemeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: AZ01 herokuapp adresinden delete button'u islemeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: AZ01 herokuapp adresinden delete button'u islemeli" />
         <item itemvalue="Cucumber Java.Feature: User008_ScenarioOutlineClassWork" />
         <item itemvalue="Cucumber Java.Scenario: istifadeci sehifeni baglayir" />
         <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir" />
         <item itemvalue="Cucumber Java.Scenario: AZ01 istifadeci 5 ferqli qeyd girisi ede bilmelidir -  - Example n°1" />
-        <item itemvalue="Cucumber Java.Scenario: AZ01 ConfigReader ile Scenario Outline istifadesi" />
       </list>
     </recent_temporary>
   </component>
